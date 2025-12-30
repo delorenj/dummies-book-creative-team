@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "dummies-book-writers",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "description": "Multi-agent workflow for generating publication-quality thematic technical manuals with AI illustrations and pandoc publishing pipeline. Creates memorable documentation through metaphor-based storytelling.",
       "author": {
         "name": "Jarad DeLorenzo",
