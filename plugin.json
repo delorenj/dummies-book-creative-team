@@ -1,0 +1,31 @@
+{
+  "name": "dummies-book-creative-team",
+  "displayName": "Old School Dummies Book Creative Team",
+  "version": "2.0.0",
+  "description": "Multi-agent workflow for generating publication-quality thematic technical manuals with AI illustrations and pandoc publishing pipeline. Creates memorable documentation through metaphor-based storytelling.",
+  "author": {
+    "name": "Jarad DeLorenzo",
+    "email": "jarad@delorenj.com"
+  },
+  "license": "Unlicense",
+  "tags": [
+    "documentation",
+    "multi-agent",
+    "ai-illustration",
+    "technical-writing",
+    "thematic-content",
+    "pandoc",
+    "publishing",
+    "workflow-orchestration"
+  ],
+  "categories": ["workflow"],
+  "dependencies": {
+    "soft": [
+      "fal-text-to-image"
+    ]
+  },
+  "settings": {
+    "configFile": ".claude/dummies-book-creative-team.local.md",
+    "optional": true
+  }
+}

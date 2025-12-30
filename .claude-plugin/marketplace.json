@@ -1,0 +1,60 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "delorenj-plugins",
+  "description": "Jarad DeLorenzo's custom Claude Code plugins including thematic documentation generators and AI workflow tools",
+  "owner": {
+    "name": "Jarad DeLorenzo",
+    "email": "jarad@delorenj.com"
+  },
+  "plugins": [
+    {
+      "name": "dummies-book-creative-team",
+      "displayName": "Old School Dummies Book Creative Team",
+      "version": "2.0.0",
+      "description": "Multi-agent workflow for generating publication-quality thematic technical manuals with AI illustrations and pandoc publishing pipeline. Creates memorable documentation through metaphor-based storytelling.",
+      "author": {
+        "name": "Jarad DeLorenzo",
+        "email": "jarad@delorenj.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "tags": [
+        "documentation",
+        "multi-agent",
+        "ai-illustration",
+        "technical-writing",
+        "thematic-content",
+        "pandoc",
+        "publishing",
+        "workflow-orchestration"
+      ],
+      "homepage": "https://github.com/delorenj/dummies-book-creative-team",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/delorenj/dummies-book-creative-team.git"
+      },
+      "dependencies": {
+        "soft": [
+          "fal-text-to-image"
+        ]
+      },
+      "keywords": [
+        "documentation",
+        "manual",
+        "thematic",
+        "storytelling",
+        "ai-illustrations",
+        "pandoc",
+        "pdf",
+        "html",
+        "epub",
+        "technical-writing",
+        "Victorian",
+        "steampunk",
+        "pharmaceutical",
+        "metaphor",
+        "multi-agent"
+      ]
+    }
+  ]
+}

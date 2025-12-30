@@ -1,0 +1,207 @@
+/* Dummies Book Theme - Base Template */
+/* Colors will be dynamically generated from THEME_PROPOSAL.md */
+
+:root {
+  /* These are placeholders - Builder agent replaces with actual theme colors */
+  --primary-color: #2C5530;
+  --secondary-color: #B8860B;
+  --accent-color: #1C1C1C;
+  --bg-color: #F4E8D0;
+  --warning-color: #8B0000;
+  --success-color: #2E8B57;
+  --code-bg: #f4f4f4;
+  --text-color: #333;
+  --border-color: #ddd;
+}
+
+/* Base Typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.5em; border-bottom: 3px solid var(--primary-color); padding-bottom: 0.5rem; }
+h2 { font-size: 2em; border-bottom: 2px solid var(--secondary-color); padding-bottom: 0.4rem; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.2em; color: var(--secondary-color); }
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  border-bottom-style: solid;
+}
+
+/* Code */
+code {
+  background: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  border: 1px solid var(--border-color);
+}
+
+pre {
+  background: var(--code-bg);
+  border-left: 4px solid var(--primary-color);
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: 0.95em;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
+}
+
+th {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding-left: 1rem;
+  margin-left: 0;
+  font-style: italic;
+  color: #666;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  display: block;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* Warning/Note Boxes (ASCII box style) */
+pre.ascii-box {
+  background: var(--bg-color);
+  border: 3px double var(--warning-color);
+  padding: 1.5rem;
+  font-family: monospace;
+}
+
+/* Table of Contents */
+nav#TOC {
+  background: var(--bg-color);
+  padding: 1.5rem;
+  border: 2px solid var(--primary-color);
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+nav#TOC ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+nav#TOC a {
+  border-bottom: none;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    max-width: 100%;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: black;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  pre, table, img {
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: black;
+    border-bottom: none;
+  }
+
+  nav#TOC {
+    page-break-after: always;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.5em; }
+  h3 { font-size: 1.2em; }
+
+  table {
+    font-size: 0.85em;
+  }
+
+  pre {
+    padding: 0.75rem;
+    font-size: 0.85em;
+  }
+}
