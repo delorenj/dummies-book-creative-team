@@ -5,6 +5,7 @@ Multi-agent workflow for generating publication-quality thematic technical manua
 ## What It Does
 
 Transforms dry technical topics into engaging, memorable documentation through:
+
 - **Adversarial research** - Theme Designer vs Structure Architect debate visual identity
 - **Parallel content generation** - N chapter agents write simultaneously
 - **AI illustration** - Generates 6-8 thematic images (requires fal-text-to-image)
@@ -25,10 +26,12 @@ cp -r dummies-book-creative-team ~/.claude/plugins/
 ## Prerequisites
 
 **Required:**
+
 - Claude Code CLI
 - Basic: markdown support
 
 **Optional:**
+
 - `fal-text-to-image` skill (for AI illustrations)
 - `pandoc` (for PDF/HTML/EPUB conversion)
 - `xelatex` or `pdflatex` (for PDF generation)
@@ -46,6 +49,7 @@ output_format: ["markdown", "pdf", "html"]
 ```
 
 Triggers:
+
 - "create themed manual"
 - "generate documentation with storytelling"
 - Mentions themes: Victorian, steampunk, art deco, pharmaceutical, etc.
@@ -64,16 +68,17 @@ FAL_KEY=your-api-key-here
 
 ## Workflow Phases
 
-1. **Research** (15-30 min) - Adversarial theme design
-2. **Content** (30-60 min) - Parallel chapter generation
-3. **Assembly** (15-30 min) - Publisher synthesizes manual
-4. **Illustration** (15-30 min) - AI image generation (optional)
-5. **Building** (5-10 min) - Pandoc conversion (optional)
-6. **QA** (15-30 min) - Quality validation
+1. **Research** - Adversarial theme design
+2. **Content** - Parallel chapter generation
+3. **Assembly** - Publisher synthesizes manual
+4. **Illustration** - AI image generation (optional)
+5. **Building** - Pandoc conversion (optional)
+6. **QA** - Quality validation
 
 ## Output
 
 **Files Created:**
+
 - `THE_COMPLETE_MANUAL.md` - Full manual (30K-50K words)
 - `images/*.png` - AI illustrations (if enabled)
 - `build/*.pdf|html|epub` - Converted formats (if enabled)
@@ -83,6 +88,7 @@ FAL_KEY=your-api-key-here
 ## Examples
 
 See `examples/` directory for:
+
 - `comfyui-nyquil-cat/` - Pharmaceutical theme (47K words, 8 chapters, 8 images)
 - `git-worktree-victorian/` - Railway theme (30K words, 6 chapters, 6 images)
 
@@ -92,4 +98,4 @@ Public domain (Unlicense). Use freely.
 
 ## Credits
 
-Created by Jarad DeLorenzo using multi-agent orchestration patterns.
+Created by Jarad DeLorenzo because I miss hanging out in Walden books in a smoke-filled mall reading an 11lb computer book on 3d game programming with a CD in the back filled with garbage software while I wait for my grandma who's getting a perm at J.C. Penny's right across the fountain over there...
