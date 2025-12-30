@@ -9,14 +9,13 @@
   "plugins": [
     {
       "name": "dummies-book-creative-team",
-      "displayName": "Old School Dummies Book Creative Team",
       "version": "2.0.0",
       "description": "Multi-agent workflow for generating publication-quality thematic technical manuals with AI illustrations and pandoc publishing pipeline. Creates memorable documentation through metaphor-based storytelling.",
       "author": {
         "name": "Jarad DeLorenzo",
         "email": "jarad@delorenj.com"
       },
-      "source": ".",
+      "source": "./",
       "category": "productivity",
       "tags": [
         "documentation",
@@ -29,15 +28,7 @@
         "workflow-orchestration"
       ],
       "homepage": "https://github.com/delorenj/dummies-book-creative-team",
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/delorenj/dummies-book-creative-team.git"
-      },
-      "dependencies": {
-        "soft": [
-          "fal-text-to-image"
-        ]
-      },
+      "repository": "https://github.com/delorenj/dummies-book-creative-team.git",
       "keywords": [
         "documentation",
         "manual",

@@ -15,6 +15,27 @@ Transforms dry technical topics into engaging, memorable documentation through:
 
 ## Installation
 
+### Via Plugin Marketplace (Recommended)
+
+Install from a Claude Code plugin marketplace:
+
+```bash
+# Add the marketplace (one-time setup)
+/plugin marketplace add owner/marketplace-repo
+
+# Install this plugin from the marketplace
+/plugin install dummies-book-creative-team@marketplace-name
+
+# Update marketplace to get latest versions
+/plugin marketplace update
+```
+
+The plugin will be automatically downloaded and configured in your `~/.claude/plugins/` directory with version tracking and automatic updates.
+
+### Manual Installation
+
+Alternatively, clone or copy directly to your plugins directory:
+
 ```bash
 # Clone or copy to plugins directory
 cp -r dummies-book-creative-team ~/.claude/plugins/
