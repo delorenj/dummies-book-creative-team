@@ -1,21 +1,21 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "delorenj-plugins",
-  "description": "Jarad DeLorenzo's custom Claude Code plugins including thematic documentation generators and AI workflow tools",
+  "name": "dummies-book-creative-team",
+  "description": " Custom Claude Code plugins including thematic documentation generators and AI workflow tools",
   "owner": {
     "name": "Jarad DeLorenzo",
-    "email": "jarad@delorenj.com"
+    "email": "jaradd@gmail.com"
   },
   "plugins": [
     {
-      "name": "dummies-book-creative-team",
+      "name": "dummies-book-writers",
       "version": "2.0.0",
       "description": "Multi-agent workflow for generating publication-quality thematic technical manuals with AI illustrations and pandoc publishing pipeline. Creates memorable documentation through metaphor-based storytelling.",
       "author": {
         "name": "Jarad DeLorenzo",
-        "email": "jarad@delorenj.com"
+        "email": "jaradd@gmail.com"
       },
-      "source": "./",
+      "source": "./plugins/writers",
       "category": "productivity",
       "tags": [
         "documentation",
@@ -45,6 +45,39 @@
         "pharmaceutical",
         "metaphor",
         "multi-agent"
+      ]
+    },
+    {
+      "name": "dummies-book-illustrators",
+      "version": "1.0.0",
+      "description": "Generate high-quality AI illustrations using fal.ai's text-to-image models. Supports FLUX, Recraft V3, Imagen4, and intelligent model selection for professional-grade outputs.",
+      "author": {
+        "name": "Jarad DeLorenzo",
+        "email": "jaradd@gmail.com"
+      },
+      "source": "./plugins/illustrators",
+      "category": "productivity",
+      "tags": [
+        "ai-generation",
+        "image-generation",
+        "fal.ai",
+        "FLUX",
+        "illustration",
+        "text-to-image"
+      ],
+      "homepage": "https://github.com/delorenj/dummies-book-creative-team",
+      "repository": "https://github.com/delorenj/dummies-book-creative-team.git",
+      "keywords": [
+        "ai",
+        "image-generation",
+        "fal",
+        "flux",
+        "recraft",
+        "imagen",
+        "text-to-image",
+        "illustration",
+        "design",
+        "graphics"
       ]
     }
   ]

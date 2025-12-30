@@ -1,0 +1,10 @@
+{
+  "name": "dummies-book-illustrators",
+  "version": "1.0.0",
+  "description": "Generate high-quality AI illustrations using fal.ai's text-to-image models. Supports FLUX, Recraft V3, Imagen4, and intelligent model selection for professional-grade outputs.",
+  "author": {
+    "name": "Jarad DeLorenzo",
+    "email": "jaradd@gmail.com"
+  },
+  "license": "Unlicense"
+}
